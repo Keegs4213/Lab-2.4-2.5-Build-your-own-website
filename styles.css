@@ -12,14 +12,15 @@
     flex: 1;
   }
   #main > article {
+    background-color: rgb(241, 205, 165);
     flex: 1;
     order: 1;
   }
-  #main > nav, 
+  #main > div, 
   #main > aside {
     flex: 0 0 20vw;
   }
-  #main > nav {
+  #main > div {
     background: #D7E8D4;
     order: 3;
   }
@@ -28,9 +29,14 @@
     order: 2;
   }
   header, footer {
-    background: yellowgreen;
+    background: rgb(56, 188, 236);
     height: 20vh;
   }
-  header, footer, article, nav, aside {
+  header, footer, article, aside {
     padding: 1em;
+  }
+
+  #footertext{
+    display: flex;
+    justify-content: center;
   }
