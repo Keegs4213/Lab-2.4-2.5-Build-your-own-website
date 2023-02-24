@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box; 
+    font-family:'Times New Roman', Times, serif
   }
   body {
     display: flex;
@@ -15,6 +16,7 @@
     background-color: rgb(241, 205, 165);
     flex: 1;
     order: 1;
+    font-size: 20px;
   }
   #main > div, 
   #main > aside {
@@ -23,13 +25,15 @@
   #main > div {
     background: #D7E8D4;
     order: 3;
+    font-size:20px;
   }
   #main > aside {
     background: beige;
     order: 2;
+    font-size: 20px;
   }
   header, footer {
-    background: rgb(56, 188, 236);
+    background: rgb(147, 172, 255);
     height: 20vh;
   }
   header, footer, article, aside {
@@ -39,4 +43,23 @@
   #footertext{
     display: flex;
     justify-content: center;
+  }
+
+  a:active, a:hover {
+    text-decoration: wavy;
+    color: orange;
+    font-size: 30px;
+  }
+
+  a:visited {
+    text-decoration:line-through;
+    color: purple;
+  }
+
+  img {
+    position: absolute;
+    left: 400px;
+    top: 0px;
+    width: 152px;
+    z-index: 0;
   }
